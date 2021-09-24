@@ -1,0 +1,31 @@
+html { 
+  background: url(images/home.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#welcome-title {
+  position: relative;
+  float: left;
+  margin-top: 250px;
+  margin-left: 200px;
+  text-align: center;
+  color: #27403e;
+}
+
+#welcome-p {
+  font-size: 55px;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+  #welcome-title {
+    position: relative;
+    float: left;
+    margin-top: 200px;
+    margin-left: 20px;
+  }
+}
