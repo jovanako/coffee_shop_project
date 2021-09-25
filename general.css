@@ -3,12 +3,12 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-.nav-bar {
+#nav-bar {
   background-color: #27403e;
   overflow: auto;
 }
 
-.nav-bar a {
+#nav-bar a {
   float: left;
   width: 20%;
   text-align: center;
@@ -19,7 +19,7 @@ body {
   text-decoration: none;
 }
 
-.nav-bar a:hover {
+#nav-bar a:hover {
   background-color: #cccccc;
   color: #27403e;
 }
