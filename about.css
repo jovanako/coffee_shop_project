@@ -53,27 +53,19 @@ p {
   font-size: 20px;
 }
 
-@media screen and (max-width: 1420px) {
-
-  #image-left {
-    width: 50%;
-  }
-  
-  #image-right {
-    width: 50%;
-  }
-
-}
-
-@media screen and (max-width: 1000px) {
-  
-  #image-right {
-    width: 100%;
-    height: 100vh;
-  }
+@media only screen and (max-width: 1430px) {
 
   #image-left {
     display: none;
+  }
+  
+  .right-container {
+    width: 100%;    
+  }
+
+  #text-container {
+    margin-top: 15%;
+    width: 70%;
   }
 
 }
