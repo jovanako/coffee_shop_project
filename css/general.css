@@ -25,3 +25,12 @@ body {
   color: #27403e;
 }
 
+@media (orientation: portrait) {
+
+  #nav-bar a {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+}
+
