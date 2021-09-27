@@ -6,6 +6,7 @@ body {
 #nav-bar {
   background-color: #27403e;
   overflow: auto;
+  position: sticky;
 }
 
 #nav-bar a {
