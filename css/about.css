@@ -1,6 +1,7 @@
-body {
-  background-color: #9e9984;
-  overflow: hidden;
+body { 
+  background: url(../images/about_background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: scroll;
 }
 
 #nav-bar a:hover {
@@ -8,32 +9,14 @@ body {
   color: #27403e;
 }
 
-#image-left {
-  float: left;  
-  width: 40%;
-  height: 100vh;
-}
-
-.right-container {
-  display: inline-flex;
-  width: 60%;
-  height: 100vh;
-  justify-content: center;
-  align-content: center;
-}
-
-#image-right {
-  width: 100%;
-  opacity: 25%;
-}
-
 #text-container {
   position: absolute;
   text-align: center;
   top: 0;
+  right: 0;
   width: 45%;
-  height: 100vh;
   margin-top: 12%;
+  margin-right: 120px;
   color: #27403e;
 }
 
@@ -53,33 +36,70 @@ p {
   font-size: 20px;
 }
 
-@media (orientation: portrait) {
+@media only screen and (max-width: 1400px) {
 
-  #image-right {
-    display: block;
-    height: 100%;
-  }
-
-  #image-left {
-    display: block;
-    height: 100%;
-    width: 100%;
-    float: none;
-    margin-top: -600px;
-  }
-
-  .right-container {
-    display: block;
-    width: 100%;
-    height: 50%;   
+  body {
+    background: url(../images/about_right.jpg) no-repeat center center fixed;
+    background-size: cover;
   }
 
   #text-container {
-    text-align: center;
-    width: 80%;
-    margin-top: 1000px;
-    margin-left: 100px;
-    height: 50%;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    height: 80vh;
+    margin-top: 12%;
+    margin-left: 15%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #27403e;
+    color: #cccccc;
+    opacity: 80%;
   }
 
+}
+
+@media only screen and (max-width: 1060px) {
+
+  #text-container {
+    margin-top: 10%;
+    height: 85vh;
+  }
+
+}
+
+@media only screen and (max-width: 920px) {
+
+  #text-container {
+    margin-top: 20%;
+    margin-left: 10%;
+    padding-top: 0px;
+    height: 75vh;
+    width: 75vw;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 21px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width: 570px) {
+
+  #text-container {
+    margin-top: 30%;
+  }
 }

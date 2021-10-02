@@ -6,7 +6,9 @@ body {
 #nav-bar {
   background-color: #27403e;
   overflow: auto;
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 #nav-bar a {
@@ -28,7 +30,6 @@ body {
 @media (orientation: portrait) {
 
   #nav-bar a {
-    font-size: 35px;
     font-weight: bold;
   }
 
