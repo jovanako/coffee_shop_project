@@ -93,8 +93,89 @@ p {
 
 @media (orientation: portrait) {
 
-  #text-container {
-    margin-top: 15%;
+  body {
+    background: url(../images/about_portrait_background.jpg) no-repeat center center fixed;
+    background-size: cover;
   }
+
+  #text-container {
+    top: 0;
+    left: 0;
+    width: 70vw;
+    margin-top: 65%;
+    margin-left: 14%;
+    color: #27403e;
+    background-color: transparent;
+  }
+
+}
+
+@media only screen 
+    and (device-width : 768px) 
+    and (device-height: 1024px) {
+
+      #text-container {
+        margin-top: 500px;
+      }
+
+}
+
+@media only screen 
+    and (device-width : 240px) 
+    and (device-height: 320px) {
+
+      #text-container {
+        margin-top: 450px;
+      }
+
+}
+
+@media only screen 
+    and (device-width : 411px) 
+    and (device-height: 823px) {
+
+      #text-container {
+        margin-top: 750px;
+      }
+
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height: 812px) {
+
+      #text-container {
+        margin-top: 850px;
+      }
+
+}
+
+@media only screen 
+    and (device-width : 1024px) 
+    and (device-height: 1366px) {
+
+      #text-container {
+        margin-top: 500px;
+      }
+
+}
+
+@media only screen 
+    and (device-width : 540px) 
+    and (device-height: 720px) {
+
+      #text-container {
+        margin-top: 500px;
+      }
+
+}
+
+@media only screen 
+    and (device-width : 280px) 
+    and (device-height: 653px) {
+
+      #text-container {
+        margin-top: 900px;
+      }
 
 }
