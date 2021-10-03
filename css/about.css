@@ -1,25 +1,29 @@
 body { 
-  background: url(../images/about_background.jpg) no-repeat center center fixed;
+  background: url(../images/about_landscape.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: auto;
   position: relative;
 }
 
 #nav-bar a:hover {
-  background-color: #9e9984;
+  background-color: #cccccc;
   color: #27403e;
 }
 
 #text-container {
-  position: fixed;
+  display: flex;
   text-align: center;
   top: 0;
-  right: 0;
-  width: 45%;
-  min-height: 1000px;
-  margin-top: 12%;
-  margin-right: 120px;
-  color: #27403e;
+  left: 0;
+  width: 30%;
+  height: 70%;
+  margin-top: 10%;
+  margin-left: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #cccccc;
+  background-color: #27403e;
+  opacity: 80%;
 }
 
 h1 {
@@ -41,14 +45,14 @@ p {
 @media (orientation: portrait) {
 
   body {
-    background: url(../images/about_left.jpg) no-repeat center center fixed;
+    background: url(../images/about_portrait.jpg) no-repeat center center fixed;
     background-size: cover;
   }
 
   #text-container {
     display: flex;
     width: 70%;
-    height: 700px;
+    height: 70%;
     background-color: #9e9984;
     opacity: 85%;
     color: #1b2d2c;
@@ -57,19 +61,8 @@ p {
     padding-right: 15px;
     font-weight: 600;
     margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  #about-text {
-    height: 700px;
-  }
-
-}
-
-@media only screen 
-    and (device-width : 640px) 
-    and (device-height: 360px) {
-
-      #text-container {
-        position: absolute;
-      }
 }
