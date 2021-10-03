@@ -1,10 +1,11 @@
 body { 
   background: url(../images/home.jpg) no-repeat center center fixed;
   background-size: cover;
+  position: relative;
 }
 
 #welcome-title {
-  position: relative;
+  position: absolute;
   float: left;
   margin-top: 250px;
   margin-left: 200px;
@@ -23,7 +24,7 @@ h1 {
 
 @media only screen and (max-width: 1000px) {
   #welcome-title {
-    position: relative;
+    position: absolute;
     float: left;
     margin-top: 200px;
     margin-left: 20px;

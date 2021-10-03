@@ -1,7 +1,8 @@
 body { 
   background: url(../images/about_background.jpg) no-repeat center center fixed;
   background-size: cover;
-  overflow: scroll;
+  overflow: auto;
+  position: relative;
 }
 
 #nav-bar a:hover {
@@ -10,7 +11,7 @@ body {
 }
 
 #text-container {
-  position: absolute;
+  position: fixed;
   text-align: center;
   top: 0;
   right: 0;
@@ -37,145 +38,38 @@ p {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 1400px) {
-
-  body {
-    background: url(../images/about_right.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  #nav-bar a:hover {
-    background-color: #cccccc;
-    color: #27403e;
-  }
-
-  #text-container {
-    top: 0;
-    left: 0;
-    width: 70vw;
-    margin-top: 0px;
-    margin-left: 14%;
-    padding-top: 10%;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #27403e;
-    color: #cccccc;
-    opacity: 80%;
-  }
-
-}
-
-@media only screen and (max-width: 920px) {
-
-  #text-container {
-    margin-left: 10%;
-    padding-top: 0px;
-    width: 75vw;
-  }
-
-  h1 {
-    font-size: 35px;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-  
-  h3 {
-    font-size: 21px;
-  }
-  
-  p {
-    font-size: 18px;
-  }
-
-}
-
 @media (orientation: portrait) {
 
   body {
-    background: url(../images/about_portrait_background.jpg) no-repeat center center fixed;
+    background: url(../images/about_left.jpg) no-repeat center center fixed;
     background-size: cover;
   }
 
   #text-container {
-    top: 0;
-    left: 0;
-    width: 70vw;
-    margin-top: 65%;
-    margin-left: 14%;
-    color: #27403e;
-    background-color: transparent;
+    display: flex;
+    width: 70%;
+    height: 700px;
+    background-color: #9e9984;
+    opacity: 85%;
+    color: #1b2d2c;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+    margin-top: 20%;
+  }
+
+  #about-text {
+    height: 700px;
   }
 
 }
 
 @media only screen 
-    and (device-width : 768px) 
-    and (device-height: 1024px) {
+    and (device-width : 640px) 
+    and (device-height: 360px) {
 
       #text-container {
-        margin-top: 500px;
+        position: absolute;
       }
-
-}
-
-@media only screen 
-    and (device-width : 240px) 
-    and (device-height: 320px) {
-
-      #text-container {
-        margin-top: 450px;
-      }
-
-}
-
-@media only screen 
-    and (device-width : 411px) 
-    and (device-height: 823px) {
-
-      #text-container {
-        margin-top: 750px;
-      }
-
-}
-
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height: 812px) {
-
-      #text-container {
-        margin-top: 850px;
-      }
-
-}
-
-@media only screen 
-    and (device-width : 1024px) 
-    and (device-height: 1366px) {
-
-      #text-container {
-        margin-top: 500px;
-      }
-
-}
-
-@media only screen 
-    and (device-width : 540px) 
-    and (device-height: 720px) {
-
-      #text-container {
-        margin-top: 500px;
-      }
-
-}
-
-@media only screen 
-    and (device-width : 280px) 
-    and (device-height: 653px) {
-
-      #text-container {
-        margin-top: 900px;
-      }
-
 }
