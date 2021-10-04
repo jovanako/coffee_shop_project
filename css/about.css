@@ -17,10 +17,9 @@ body {
   left: 0;
   width: 30%;
   height: 70%;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-left: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
   color: #cccccc;
   background-color: #27403e;
   opacity: 80%;
@@ -56,9 +55,7 @@ p {
     background-color: #9e9984;
     opacity: 85%;
     color: #1b2d2c;
-    padding-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 50px;
     font-weight: 600;
     margin-top: 20%;
     margin-left: auto;
