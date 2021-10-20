@@ -1,0 +1,95 @@
+body { 
+  background: url(../images/menu.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+}
+
+.text-background {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background: rgba(203, 203, 200, .2);
+}
+
+#upper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.text-on-page {
+  color: #e7e7e7;
+}
+
+.main-title {
+  font-size: 50px;
+}
+
+.coffee-cups {
+  width: 400px;
+  padding: 10px;
+}
+
+.sub-text {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#lower-container {
+  display: flex;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+#coffee-title {
+  margin-top: 20px;
+  margin-bottom: 18.5px;
+}
+
+.menu-box {
+  flex: 1;
+  width: 40%;
+  text-align: center;
+  color: #e7e7e7;
+}
+
+.menu-titles {
+  border: 2px dotted #e7e7e7;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+.coffee-type {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.prices {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #title-container {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #title-container {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #title-container {
+    width: 85%;
+  }
+}
