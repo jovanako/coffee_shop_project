@@ -1,8 +1,8 @@
-const createNavbarItem = (name, page) => {
+const createNavbarItem = (linkData) => {
   const link = document.createElement("a")
-  const text = document.createTextNode(name)
+  const text = document.createTextNode(linkData.name)
   link.appendChild(text)
-  link.href = page
+  link.href = linkData.page
   return link
 }
 
@@ -10,11 +10,24 @@ const addNavbar = () => {
   const navbar = document.createElement("div")
   navbar.id = "nav-bar"
 
-  navbar.appendChild(createNavbarItem("Home", "index.html"))
-  navbar.appendChild(createNavbarItem("About Us", "about.html"))
-  navbar.appendChild(createNavbarItem("Menu", "menu.html"))
-  navbar.appendChild(createNavbarItem("Our Team", "team.html"))
-  navbar.appendChild(createNavbarItem("Contact", "contact.html"))
+  const navbarItemData = [{
+    name: "Home", 
+    page: "index.html"
+  }, {
+    name: "About Us", 
+    page: "about.html"
+  }, {
+    name: "Menu",
+    page: "menu.html"
+  }, {
+    name: "Our Team",
+    page: "team.html"
+  }, {
+    name: "Contact",
+    page: "contact.html"
+  }]
+
+  navbarItemData.forEach(linkData => navbar.appendChild(createNavbarItem(linkData)))
 
   document.body.prepend(navbar)
 }
