@@ -1,5 +1,5 @@
 body { 
-  background: url(../images/team.jpg) no-repeat center center fixed;
+  background: url(../images/team_landscape.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: 'Quicksand', sans-serif;
 }
@@ -8,10 +8,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  margin-top: 4%;
-  margin-left: 10%;
-  margin-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  width: 1000px;
+  margin: 5% auto 5% auto;
+  background: rgba(39, 64, 62, 0.8);
 }
 
 #main-title {
@@ -50,15 +51,23 @@ body {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (orientation: portrait) {
   #main-container {
-    margin-left: 15%;
+    margin-top: 10%;
+    width: 80%;
   }
 }
 
-@media only screen and (max-width: 850px) {
+/* @media (orientation: portrait) {
+
+  body {
+    background: url(../images/team_portrait.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
   #main-container {
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 10%;
   }
-}
+
+} */
