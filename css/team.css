@@ -1,0 +1,64 @@
+body { 
+  background: url(../images/team.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+
+#main-title {
+  font-size: 50px;
+  color: #e7e7e7;
+  text-align: center;
+}
+
+.text-on-page {
+  color: #e7e7e7;
+  width: 400px;
+  padding: 20px;
+  margin-left: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.images {
+  border-radius: 25px;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.member-name {
+  border: 2px dotted #e7e7e7;  
+}
+
+@media only screen and (max-width: 1230px) {
+  .text-on-page {
+    width: 300px;
+  }
+  
+  #main-title {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #main-container {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #main-container {
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+}
