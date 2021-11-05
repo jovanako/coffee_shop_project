@@ -9,6 +9,7 @@ const createNavbarItem = (linkData) => {
 const addNavbar = () => {
   const navbar = document.createElement("div")
   navbar.id = "nav-bar"
+  navbar.className = "header-footer"
 
   const navbarItemData = [{
     name: "Home", 

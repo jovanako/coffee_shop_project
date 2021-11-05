@@ -3,18 +3,20 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-#nav-bar {
+.header-footer {
   background-color: #27403e;
   overflow: auto;
   position: fixed;
-  width: 100%;
+  width: 100%;  
+}
+
+#nav-bar {
   top: 0;
   z-index: 9999;
 }
 
-#nav-bar a {
-  float: left;
-  width: 20%;
+a {
+  float: left; 
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -23,14 +25,28 @@ body {
   text-decoration: none;
 }
 
-#nav-bar a:hover {
+a:hover {
   background-color: #cccccc;
   color: #27403e;
 }
 
+#nav-bar a {  
+  width: 20%;
+}
+
+#footer {
+  bottom: 0;
+}
+
+#footer a {
+  padding-left: 30px;
+  padding-right: 30px;
+  float: right;
+}
+
 @media (orientation: portrait) {
 
-  #nav-bar a {
+  a {
     font-weight: bold;
   }
 
