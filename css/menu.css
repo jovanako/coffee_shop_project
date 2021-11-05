@@ -82,14 +82,28 @@ body {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 930px) {
   #title-container {
     margin-top: 15%;
   }
+
+  .menu-titles {
+    width: 250px;
+  }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 740px) {
   #title-container {
     width: 85%;
+  }
+
+  .menu-titles {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 633px) {
+  .menu-titles {
+    width: 150px;
   }
 }
