@@ -3,7 +3,7 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-.header-footer {
+#nav-bar, #footer {
   background-color: #27403e;
   overflow: auto;
   position: fixed;
@@ -13,6 +13,10 @@ body {
 #nav-bar {
   top: 0;
   z-index: 9999;
+}
+
+#nav-bar a {  
+  width: 20%;
 }
 
 a {
@@ -30,9 +34,6 @@ a:hover {
   color: #27403e;
 }
 
-#nav-bar a {  
-  width: 20%;
-}
 
 #footer {
   bottom: 0;
