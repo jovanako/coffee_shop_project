@@ -1,0 +1,18 @@
+body { 
+  background: url(../images/contact.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  background-color: #5c5c5a;
+}
+
+#main-box {
+  display: flex;
+  margin-top: 10%;
+}
+
+.content-box {
+  flex: 1;
+  width: 40%;
+  text-align: center;
+  color: #e7e7e7;
+}
