@@ -1,8 +1,8 @@
-body { 
-  background: url(../images/about_landscape.jpg) no-repeat center center fixed;
+body {
+  background: url(../images/menu.jpg) no-repeat center center fixed;
   background-size: cover;
-  overflow: auto;
   position: relative;
+  background-color: black;
 }
 
 #nav-bar a:hover {
@@ -10,57 +10,53 @@ body {
   color: #27403e;
 }
 
-#text-container {
-  display: flex;
+#main-title {
+  margin: 150px auto 30px auto;
+  color: #cccccc;
   text-align: center;
-  top: 0;
-  left: 0;
-  width: 30%;
-  height: 70%;
-  margin-top: 5%;
-  margin-left: 50px;
+}
+
+.carousel {
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text-container {
+  text-align: center;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5%;
   padding: 30px;
   color: #cccccc;
-  background-color: #27403e;
-  opacity: 80%;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 p {
   font-size: 20px;
+  font-weight: bold;
 }
 
 @media (orientation: portrait) {
 
-  body {
-    background: url(../images/about_portrait.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  #text-container {
-    display: flex;
-    width: 70%;
-    height: 70%;
-    background-color: #9e9984;
-    opacity: 85%;
-    color: #1b2d2c;
-    padding: 50px;
-    font-weight: 600;
-    margin-top: 25%;
-    margin-left: auto;
-    margin-right: auto;
+  .carousel {
+    width:400px;
   }
 
 }
