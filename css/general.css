@@ -48,12 +48,14 @@ a:hover {
 
 @media (orientation: portrait) {
 
-  a {
-    font-weight: bold;
+  #nav-bar a {
+    font-size: 35px;
   }
 
-  #our-in-team {
-    display: none;
+  #footer a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
   }
 
 }

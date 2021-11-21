@@ -58,7 +58,7 @@ p {
 
   #main-title {
     width: 80%;
-    margin: 100px auto 30px auto;
+    margin: 150px auto 30px auto;
   }
 
   .carousel {
@@ -82,18 +82,8 @@ p {
   }
 
   #text-container {
-    width: 90%;
+    width: 80%;
     margin-bottom: 10%;
-  }
-
-  #footer a {
-    padding-left: 10px;
-    padding-right: 10px;
-    float: right;
-  }
-
-  #nav-bar a {
-    font-size: 16px;
   }
 
 }
