@@ -11,6 +11,7 @@ body {
 }
 
 #main-title {
+  width: 900px;
   margin: 150px auto 30px auto;
   color: #cccccc;
   text-align: center;
@@ -55,8 +56,43 @@ p {
 
 @media (orientation: portrait) {
 
+  #main-title {
+    width: 90%;
+    margin: 100px auto 30px auto;
+  }
+
   .carousel {
-    width:400px;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+
+  #text-container {
+    width: 90%;
+  }
+
+  #footer a {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+  }
+
+  #nav-bar a {
+    font-size: 16px;
   }
 
 }
