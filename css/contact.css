@@ -21,7 +21,7 @@ body {
 }
 
 .main-title {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .information {
@@ -29,9 +29,6 @@ body {
   font-weight: bold;
 }
 
-#subtitle {
-  font-size: 35px;
-}
 
 @media (orientation: portrait) {
   #main-box {
