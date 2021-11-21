@@ -52,5 +52,9 @@ a:hover {
     font-weight: bold;
   }
 
+  #our-in-team {
+    display: none;
+  }
+
 }
 

@@ -57,7 +57,7 @@ p {
 @media (orientation: portrait) {
 
   #main-title {
-    width: 90%;
+    width: 80%;
     margin: 100px auto 30px auto;
   }
 
@@ -83,6 +83,7 @@ p {
 
   #text-container {
     width: 90%;
+    margin-bottom: 10%;
   }
 
   #footer a {
