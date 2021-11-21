@@ -49,13 +49,11 @@ a:hover {
 @media (orientation: portrait) {
 
   #nav-bar a {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   #footer a {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 35px;
+    font-size: 40px;
   }
 
 }
