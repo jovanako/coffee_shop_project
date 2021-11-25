@@ -45,7 +45,7 @@ body {
   flex-wrap: wrap;
   padding-bottom: 50px;
   margin-bottom: 50px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #coffee-title {
@@ -59,7 +59,7 @@ body {
   color: #e7e7e7;
 }
 
-.menu-titles {
+.category-header {
   border: 2px dotted #e7e7e7;
   width: 300px;
   margin-left: auto;
@@ -67,7 +67,7 @@ body {
   font-size: 30px;
 }
 
-.coffee-type {
+.menu-item {
   font-size: 23px;
   font-weight: bold;
 }
@@ -76,7 +76,7 @@ body {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   #title-container {
     margin-top: 10%;
   }
@@ -106,4 +106,4 @@ body {
   .menu-titles {
     width: 150px;
   }
-}
+} */
