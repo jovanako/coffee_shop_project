@@ -16,10 +16,10 @@ $(() => $.ajax({
           `<div class="reviews">
             <img class="random-person-image" src="${person.picture.medium}" alt=""></img>
             <h1>${`${person.name.first} ${person.name.last}`}</h1>
-            <span>${stars}</span>
+            <p>${stars}</p>
           </div>`
 
-        $('#reviews-div').append(reviewHtml)
+        $("#reviews-div").append(reviewHtml)
       })
     }
   })
