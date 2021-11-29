@@ -7,7 +7,7 @@ body {
 
 #main-box {
   display: flex;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -29,9 +29,15 @@ body {
   font-weight: bold;
 }
 
-.reviews {
-  display: inline;
-  width: 20%;  
+#reviews-div {
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  color: #e7e7e7;
 }
 
 .stars {
