@@ -7,9 +7,7 @@ body {
 
 #main-box {
   display: flex;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5% auto 30px auto;
   width: 80%;
 }
 
@@ -31,13 +29,32 @@ body {
 
 #reviews-div {
   display: flex;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  padding-top: 20px;
+  margin: 40px auto 5% auto;
   text-align: center;
-  align-items: center;
   justify-content: space-around;
-  color: #e7e7e7;
+  align-content: flex-start;
+  color: white;
+  background: rgba(203, 203, 200, .5);
+}
+
+.reviews {
+  width: 20%;
+}
+
+.random-person-image {
+  border-radius: 50%;
+}
+
+.person-name {
+  font-size: 25px;
+}
+
+.comments {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .stars {
@@ -63,5 +80,9 @@ body {
 
   #lower-box-on-portrait {
     margin-top: 10%;
+  }
+
+  #reviews-div {
+    margin-bottom: 10%;
   }
 }
