@@ -57,17 +57,3 @@ body {
     width: 100%;
   }
 }
-
-/* @media (orientation: portrait) {
-
-  body {
-    background: url(../images/team_portrait.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  #main-container {
-    margin-left: 15%;
-    margin-top: 10%;
-  }
-
-} */
