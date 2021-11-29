@@ -18,9 +18,9 @@ $(() => $.ajax({
             const reviewHtml =
               `<div class="reviews">
                 <img class="random-person-image" src="${person.picture.large}" alt=""></img>
-                <h1 class="person-name">${`${person.name.first} ${person.name.last}`}</h1>
-                <p class="comments">${comments[index].Review}</p>
                 <p>${stars}</p>
+                <p class="comments">${comments[index].Review}</p>
+                <h1 class="person-name">${`-${person.name.first}-`}</h1>
               </div>`
     
             $("#reviews-div").append(reviewHtml)

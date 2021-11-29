@@ -48,11 +48,11 @@ body {
 }
 
 .person-name {
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .comments {
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   font-weight: bold;
 }
